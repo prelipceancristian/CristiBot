@@ -1,10 +1,11 @@
 {
   "name": "cristibot2",
   "version": "1.0.0",
-  "description": "",
+  "description": "\"# CristiBot\"",
   "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js"
   },
   "author": "",
   "license": "ISC",
@@ -12,5 +13,19 @@
     "discord.js": "^12.5.1",
     "dotenv": "^8.2.0",
     "node-fetch": "^2.6.1"
-  }
+  },
+  "engines": {
+    "node": "12.x",
+    "npm": "*"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prelipceancristian/CristiBot.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/prelipceancristian/CristiBot/issues"
+  },
+  "homepage": "https://github.com/prelipceancristian/CristiBot#readme"
 }
